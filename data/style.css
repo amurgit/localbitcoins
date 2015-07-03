@@ -1,0 +1,60 @@
+body, table{
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 12px;
+line-height: 20px;
+color: #333;
+}
+body, #tabs{
+	margin: 0px auto;
+	padding: 0px 0px;
+}
+#buy_prices,#sell_prices{width: 100%;}
+table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+.ui-tabs .ui-tabs-panel{
+	padding: 1px 5px;
+	margin: 0 0;
+}
+.ui-tabs .ui-tabs-nav{font-size: 10px;}
+td {
+    height: 20px;
+    vertical-align: middle;
+    border-top: 1px solid #DDD;
+}
+hr {border-top: 1px solid #DDD;}
+th, td {
+    padding: 3px 4px;
+    text-align: left;
+}
+tbody > tr:nth-child(2n+1) > td {
+    background-color: #F9F9F9;
+}
+.active .ui-state-default{
+border: 1px solid #2694E8;
+background: url("jquery-ui-1.11.4/images/ui-bg_glass_50_3baae3_1x400.png") repeat-x scroll 50% 50% #3BAAE3;
+font-weight: bold;
+color: #FFF;
+}
+#tabs-2 a.currency, #tabs-2 a.currency:hover{text-decoration: none; display: block;}
+.name{width:30%;}
+.bank_name{width:30%;}
+.price {
+    width:9%;
+    min-width: 60px;
+    font-weight: bold;
+    color: #008000;
+}
+.limits {
+    width:21%;
+    min-width: 130px;
+}
+.last_online{font-size: 10px;}
+.ui-widget-content a {
+    color: #08C;
+    text-decoration: none;
+}
+.ui-widget-content a:hover,.ui-widget-content a:focus{color:#005580;text-decoration:underline;}

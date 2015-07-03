@@ -1,0 +1,90 @@
+{
+  "name": "localbitcoins-dx",
+  "title": "localbitcoins price monitor",
+  "id": "jid2-ddGGnwbgldCQDX@jetpack",
+  "description": "Get bitcoin prices from localbitcoins.com",
+  "author": "Kolupaev  A.V.",
+  "license": "GNU GPLv3",
+  "version": "1.5.3",
+  "preferences": [
+  {
+   "description": "comma separated currencies", 
+   "name": "currencies", 
+   "title": "Currencies", 
+   "type": "string", 
+   "value": "USD,EUR,CNY,GBP,RUB"
+  }, 
+  {
+   "name": "operation", 
+   "options": [
+    {
+     "label": "Buy price", 
+     "value": "buy"
+    }, 
+    {
+     "label": "Sell price", 
+     "value": "sell"
+    }
+   ], 
+   "title": "What price to show in badge", 
+   "type": "radio", 
+   "value": "buy"
+  }, 
+  {
+   "name": "buy_positions_count", 
+   "title": "Buy positions count to show on popup panel", 
+   "type": "integer", 
+   "value": 5
+  }, 
+  {
+   "name": "sell_positions_count", 
+   "title": "Sell positions count to show on popup panel", 
+   "type": "integer", 
+   "value": 5
+  }, 
+  {
+   "name": "min_user_score", 
+   "title": "Minimum user reputation (recommend 100)", 
+   "type": "integer", 
+   "value": 99
+  }, 
+  {
+   "name": "trade_count", 
+   "title": "User minimum trade count", 
+   "type": "integer", 
+   "value": 30
+  }, 
+  {
+   "hidden": true, 
+   "name": "currency", 
+   "title": "Currency", 
+   "type": "string", 
+   "value": "USD"
+  }, 
+  {
+   "name": "update_interval", 
+   "title": "Update interval in minutes", 
+   "type": "integer", 
+   "value": 5
+  }, 
+  {
+   "name": "panel_width", 
+   "title": "Panel width in pixels", 
+   "type": "integer", 
+   "value": 700
+  }, 
+  {
+   "name": "panel_height", 
+   "title": "Panel height in pixels", 
+   "type": "integer", 
+   "value": 450
+  }, 
+  {
+   "name": "black_list", 
+   "title": "Black list of bank names", 
+   "type": "string", 
+   "value": "bad_bank1, bad_bank2",
+   "description": "comma separated names, for examlpe: paypal, gift card"
+  }
+ ]
+}
